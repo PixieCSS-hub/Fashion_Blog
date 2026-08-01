@@ -1,5 +1,5 @@
 body {
-  font-family: Lobster, cursive;
+  font-family: 'Brush Script MT', cursive;
   line-height: 1.6;
   margin: 0;
   padding: 24px;
@@ -11,7 +11,7 @@ body {
   gap: 20px;
   text-align: left;
   padding: 12px;
-  font-family: Lobster, cursive;
+  font-family: 'Brush Script MT', cursive;
   font-size: 30px;
   align-items: center;
   background-color: #fec9ea;
@@ -23,9 +23,9 @@ body {
 
 .intro {
   text-align: center;
-  font-family: Lobster, cursive;
-  
-  }
+  font-family: 'Brush Script MT', cursive;
+
+}
 
 
 .container {
@@ -34,7 +34,7 @@ body {
   text-align: center;
   align-items: center;
     background-color: #fec9ea;
-    font-family: Lobster, cursive;
+    font-family: 'Brush Script MT', cursive;
     font-size: 20px;
     
 }
@@ -61,20 +61,20 @@ img:hover {
 
 .related-content{
   text-align: center;
-  font-family: Lobster, cursive;
+  font-family: 'Brush Script MT', cursive;
   font-size: 30px;
 }
 
 li:hover{
   text-align: center;
   text-decoration: underline;
-  font-family: Lobster, cursive;
+  font-family: 'Brush Script MT', cursive;
   font-size: 20px;
   color: #fc65f7;
 }
 
 .contact {
   text-align: center;
-  font-family: Lobster, cursive;
+  font-family: 'Brush Script MT', cursive;
   font-size: 30px;
 }
