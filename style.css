@@ -6,6 +6,20 @@ body {
   background: #fcfafd;
   color: #222;
 }
+.nav {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  padding: 12px;
+  font-family: Lobster, cursive;
+  font-size: 20px;
+  align-items: center;
+  background-color: #fec9ea;
+}
+
+.nav h6 {
+  margin: 0;
+}
 
 .intro {
   text-align: center;
