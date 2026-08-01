@@ -15,10 +15,16 @@ body {
   font-size: 30px;
   align-items: center;
   background-color: #fec9ea;
+  transition: .3s;
 }
 
 .nav h6 {
   margin: 0;
+}
+
+.nav h6:hover {
+  color: #e82ecc;
+  letter-spacing: 2px;
 }
 
 .intro {
@@ -27,10 +33,24 @@ body {
 
 }
 
+.intro img {
+  animation: grow .8s ease;
+  
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 
 .container {
   max-width: 800px;
   margin: 0 auto;
+  padding: 24px;
   text-align: center;
   align-items: center;
     background-color: #fec9ea;
@@ -50,7 +70,8 @@ img {
 }
 
 img:hover {
-  --scale: 1.1;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 
 .contact {
@@ -63,11 +84,12 @@ img:hover {
   text-align: center;
   font-family: 'Brush Script MT', cursive;
   font-size: 30px;
+
 }
 
 li:hover{
   text-align: center;
-  text-decoration: underline;
+  transform: scale(1.1);
   font-family: 'Brush Script MT', cursive;
   font-size: 20px;
   color: #fc65f7;
